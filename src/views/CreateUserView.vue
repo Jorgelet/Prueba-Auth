@@ -22,6 +22,8 @@ import { ref } from 'vue';
 import { useAuth } from "../stores/auth";
 import router from '@/router'
 
+const DATA = 121212;
+
 const email = ref("");
 const password = ref("");
 const store = useAuth()
