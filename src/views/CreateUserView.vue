@@ -12,7 +12,7 @@
             <input type="password" id="password" class="form__input" placeholder="Password" v-model="password">
         </div>
 
-        <button type="submit" @click.prevent="createUser">Continue</button>
+        <button type="submit" @click.prevent="createUser">Run</button>
       </form>
     <RouterLink :to="{name: 'login'}">Back</RouterLink>
 </template>
